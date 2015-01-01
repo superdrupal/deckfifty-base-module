@@ -1,0 +1,70 @@
+<?php
+
+/**
+ * @file
+ * Hooks & common functionality
+ *
+ */
+
+
+/**
+ * Implements hook_views_api().
+ */
+/*function deckfifty_views_api() {
+  return array('api' => 3.0);
+}*/
+
+/**
+ * Implements hook_menu().
+ */
+/*function deckfifty_menu() {
+  $items['example'] = array(
+    'title' => 'Example',
+    'page callback' => 'deckfifty_example',
+    'access arguments' => array('access content'),
+    'type' => MENU_CALLBACK,
+  );
+
+  return $items;
+}*/
+
+/**
+ * Implements hook_block_info().
+ */
+/*function deckfifty_block_info() {
+  $blocks['example'] = array(
+    'info' => t('Example'),
+    'cache' => DRUPAL_NO_CACHE,
+  );
+
+  return $blocks;
+}*/
+
+/**
+ * Implements hook_block_view().
+ */
+/*function deckfifty_block_view($delta = '') {
+
+  $block = array();
+
+  switch ($delta) {
+    case 'example':
+      $block['subject'] = t('Example');
+      $block['content'] = 'example';
+      break;
+  }
+
+  return $block;
+}*/
+
+/**
+ * Implements hook_form_alter().
+ */
+/*function deckfifty_form_alter(&$form, &$form_state, $form_id) {
+
+  switch ($form_id) {
+    case '':
+      break;
+  }
+
+}*/
